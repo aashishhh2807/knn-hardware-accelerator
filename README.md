@@ -36,8 +36,8 @@ The design focuses on efficient computation of distances, selection of nearest n
 ## File Structure
 
 ```
-knn-hardware-accelerator/
-├── src/
+knn-hardware-accelerator
+├── src
 │   ├── knn_processor_top.v
 │   ├── knn_system_l.v
 │   ├── pc.v
@@ -47,10 +47,10 @@ knn-hardware-accelerator/
 │   ├── voting_logic.v
 │   └── latency_counter.v
 │
-├── testbench/
+├── testbench
 │   └── tb_knn_system.v
 │
-├── memory/
+├── memory
 │   ├── query.mem
 │   ├── instruction_memory.v
 │   ├── training_data.v
