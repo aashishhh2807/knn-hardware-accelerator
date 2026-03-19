@@ -1,9 +1,13 @@
 # KNN Hardware Accelerator
 
 ## Overview
-This project implements a **K-Nearest Neighbors (KNN) accelerator** in **Verilog HDL**.  
-The design performs distance computation, top-K selection, and classification using hardware modules.
+This project implements a **K-Nearest Neighbors (KNN) accelerator** using **Verilog HDL** for FPGA-based hardware acceleration.
 
+- Designed and implemented a **pipelined hardware accelerator** for the KNN algorithm using synthesizable Verilog RTL  
+- Implemented **distance computation engine, Top-K selector, and majority voting modules** with instruction-driven control  
+- Achieved **907× speedup over CPU baseline** and verified functionality using **ModelSim simulations**
+
+The design focuses on efficient computation of distances, selection of nearest neighbors, and classification using modular hardware architecture.
 ---
 
 ## Features
