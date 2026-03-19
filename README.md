@@ -8,6 +8,8 @@ This project implements a **K-Nearest Neighbors (KNN) accelerator** using **Veri
 - Achieved **907× speedup over CPU baseline** and verified functionality using **ModelSim simulations**
 
 The design focuses on efficient computation of distances, selection of nearest neighbors, and classification using modular hardware architecture.
+
+
 ---
 
 ## Features
