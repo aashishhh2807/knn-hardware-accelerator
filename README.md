@@ -29,6 +29,7 @@ The design performs distance computation, top-K selection, and classification us
 
 ## File Structure
 
+```
 knn-hardware-accelerator/
 ├── src/
 │   ├── knn_processor_top.v
@@ -49,6 +50,7 @@ knn-hardware-accelerator/
 │   └── query.mem
 │
 └── README.md
+```
 
 ---
 
